@@ -194,7 +194,7 @@
                         <a class="visit-me" href="#">VISIT ME</a>
                     </div>
                     <div class="col-sm video-container">
-                        <iframe src="https://player.vimeo.com/video/11893491" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://player.vimeo.com/video/11893491" title='Beach video' width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
 
