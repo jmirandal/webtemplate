@@ -327,10 +327,7 @@
 
     </div>
     <!-- container -->
-    <script>
-        let console = {};
-        console.log = function(){};
-    </script>
+    
 </body>
 
 </html>
