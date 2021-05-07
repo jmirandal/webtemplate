@@ -6,9 +6,9 @@
     <meta name="description" content="Blueasy template - Interactivas II - 2021">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" as="style" crossorigin="anonymous">
 
-    <link rel="stylesheet" rel="preload" href="./css/style.css">
+    <link rel="preload" href="./css/style.css" as="style">
 
     <title>Blue Easy</title>
 </head>
@@ -328,6 +328,7 @@
     </div>
     <!-- container -->
     <script>
+        let console = {};
         console.log = function(){};
     </script>
 </body>
