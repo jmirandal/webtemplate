@@ -117,25 +117,25 @@
                     <div class="col-10">
                         <div class="row">
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/01.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/01.jpg" alt="road">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/02.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/02.jpg" alt="bridge">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/03.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/03.jpg" alt="tree">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/04.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/04.jpg" alt="house">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
@@ -150,25 +150,25 @@
                     <div class="col-10">
                         <div class="row">
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/05.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/05.jpg" alt="surf">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/06.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/06.jpg" alt="small mountain">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/07.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/07.jpg" alt="big mountain">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
                             </div>
                             <div class="col-sm work">
-                                <img class="img-fluid" src="./imgs/thumbs/01.jpg" alt="th">
+                                <img class="img-fluid" src="./imgs/thumbs/01.jpg" alt="long road">
                                 <div class="row align-items-center inner">
                                     <p>+</p>
                                 </div>
@@ -282,12 +282,12 @@
                 <div class="row">
                     <div class="col-sm pl-0 mb-5 user-info">
                         <div class="row mb-5">
-                            <label for="">FULLNAME</label>
-                            <input type="text">
+                            <label for="fullname">FULLNAME</label>
+                            <input type="text" name="fullname" aria-label="Your fullname" placeholder="Enter your fullname">
                         </div>
                         <div class="row">
-                            <label for="">EMAIL</label>
-                            <input type="text">
+                            <label for="email">EMAIL</label>
+                            <input type="text" name="email" aria-label="Your email address" plaeholder="Enter your email address">
                         </div>
                     </div>
                     <div class="col-sm mt-4 address">
@@ -299,8 +299,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <label for="">MESSAGE</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <label for="message">MESSAGE</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
                     <input class="mt-5" type="submit" value="MESSAGE">
                 </div>
             </div>
