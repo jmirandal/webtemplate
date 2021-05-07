@@ -326,6 +326,9 @@
 
     </div>
     <!-- container -->
+    <script>
+        console.log = function(){};
+    </script>
 </body>
 
 </html>
