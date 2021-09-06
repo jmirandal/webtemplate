@@ -118,7 +118,7 @@
           <div class="inner-col">
             <!-- PROFILE -->
             <div class="inner-col">
-              <img src="./imgs/joey.png" alt="Joey" />
+              <img class="profile-img" src="./imgs/joey.png" alt="Joey" />
               <div>
                 <h5 class="profile-name text-22 m-0">Joey</h5>
                 <p class="inner-content m-0 profile-position">Web developer</p>
@@ -127,7 +127,7 @@
             </div>
             <!-- PROFILE -->
             <div class="inner-col">
-              <img src="./imgs/matt.png" alt="Matt" />
+              <img class="profile-img" src="./imgs/matt.png" alt="Matt" />
               <div>
                 <h5 class="profile-name text-22 m-0">Matt</h5>
                 <p class="inner-content m-0 profile-position">Web designer</p>
@@ -136,7 +136,7 @@
             </div>
             <!-- PROFILE -->
             <div class="inner-col">
-              <img src="./imgs/mike.png" alt="Mike" />
+              <img class="profile-img" src="./imgs/mike.png" alt="Mike" />
               <div>
                 <h5 class="profile-name text-22 m-0">Mike</h5>
                 <p class="inner-content m-0 profile-position">Copywriter</p>

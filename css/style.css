@@ -203,13 +203,15 @@ body{
 }
 
 /*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {  
-    body{
-        background:red;
-    }
+@media (max-width: 767.98px) {
     
     .inner-grid{
         width: 100%;
+        gap: 1em;
+        text-align: center;
+    }
+    .inner-col{
+        grid-auto-flow: row;
     }
     .top-menu-items{
         display: none;
@@ -236,6 +238,22 @@ body{
         width: 80%;
         margin: auto;
         text-align: center;
+    }
+
+    .portfolio{
+        padding: 0;
+    }
+
+    .profile-name{
+        margin: 0;
+    }
+
+    .profile-img{
+        margin:auto;
+    }
+
+    .right-link{
+        align-self: center;
     }
 
 }
