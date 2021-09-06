@@ -1,0 +1,107 @@
+/*comentario css*/
+
+/*definir la letra (font-family: "Nombre Fuente")
+definir la variante(font-weight: Numero)
+400 regular
+600 semibold
+700 bold
+como trabajar esto con el css ()
+*/
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+}
+
+.top-section{
+    width:100%;
+    background: url(../imgs/hero-image.jpg) no-repeat;
+    background-size: cover;
+    padding-bottom:6em;
+}
+.logo{
+    display:inline-flex;
+    background:#fa5665;
+    color:#fff;
+    font-family:"Domine";
+    text-decoration:none;
+    padding:3.5em 1em .5em;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+}
+
+.top-menu{
+
+    display: inline-flex;
+
+}
+
+.top-menu-items{
+
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    font-family: "Montserrat";
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.top-menu-item{
+    margin: 0 1em;
+}
+
+.top-menu-link{
+    color: #263742;
+    text-decoration:none;
+}
+.inner-grid{
+
+    width: 90%;
+    margin: auto;
+    
+}
+.main-title{
+    width: 12em;
+    margin: 7em 0 0;
+    font-family: "Montserrat";
+    font-size:3em;
+    color:#314a5b;
+    text-transform: uppercase;
+}
+
+.main-slogan{
+    font-family:"Open Sans";
+    font-weight: 400;
+    color:#314a5b;
+
+}
+
+.btn{
+
+    display:inline-flex;
+    background:#fa5665;
+    color:#fff;
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-weight: 700;
+    font-size: .8em;
+    padding:1em 2em;
+    border-radius: .5em;
+    
+}
+
+/*
+font-family: "Domine";
+font-family: "Montserrat";
+font-family: "Open Sans";
+font-weight: 400 
+*/
